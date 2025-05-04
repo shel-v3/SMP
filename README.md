@@ -1,1 +1,1 @@
-# SMP
+# SMP Index script done
