@@ -1,4 +1,4 @@
-"homepage": "https://<shel-v3>.github.io/<SMP>/"
+
 {
   "compilerOptions": {
     "target": "ESNext",
@@ -28,3 +28,5 @@
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 }
+
+"homepage": "https://<shel-v3>.github.io/<SMP>/"
