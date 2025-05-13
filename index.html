@@ -3,11 +3,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nexcent Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexcent - SMP</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <script type="module" src="./src/main.ts"></script>
   </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+  <body class="bg-gray-50 text-gray-900">
+    <header class="flex justify-between items-center p-6 bg-white shadow-md">
+      <h1 class="text-2xl font-bold text-green-600">Nexcent</h1>
+      <nav class="space-x-6">
+        <a href="#" class="text-gray-700 hover:text-green-600">Home</a>
+        <a href="#" class="text-gray-700 hover:text-green-600">Features</a>
+        <a href="#" class="text-gray-700 hover:text-green-600">Community</a>
+        <a href="#" class="text-gray-700 hover:text-green-600">Blog</a>
+        <a href="#" class="text-gray-700 hover:text-green-600">Pricing</a>
+      </nav>
+      <button class="bg-green-600 text-white py-2 px-4 rounded-lg hover:bg-green-700">Register Now</button>
+    </header>
+
+    <section class="text-center py-20">
+      <h2 class="text-5xl font-bold mb-4">Lessons and insights <br><span class="text-green-600">from 8 years</span></h2>
+      <p class="text-lg text-gray-600 mb-6">Where to grow your business as a photographer: site or social media?</p>
+      <button class="bg-green-600 text-white py-2 px-6 rounded-lg hover:bg-green-700">Register</button>
+    </section>
+
+    <section class="py-16 bg-white">
+      <h3 class="text-3xl font-semibold text-center mb-8">Our Clients</h3>
+      <p class="text-center text-gray-600 mb-12">We have been working with some Fortune 500+ clients</p>
+      <div class="flex flex-wrap justify-center gap-12">
+        <div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+        <div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+        <div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+        <div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+        <div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+        <div class="w-20 h-20 bg-gray-200 rounded-lg"></div>
+      </div>
+    </section>
   </body>
 </html>
